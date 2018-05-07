@@ -1,0 +1,80 @@
+<!DOCTYPE html> //defines doc as HTML5
+<html> //root element of the HTML page
+<head> //meta info about doc
+<title>Page Title</title> // specifies title of doc
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+<!--This is a comment-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Oliva Ng's website</title>
+	</head>
+	
+	<style>
+		h1 { background-color: powderblue; color: white; font-family: Times New Roman; font-size: 20 pt; text-align: center}
+		h2 { color: black; font-family: Times New Roman; text-transform: capitalize; font-weight: bold}
+		h3 { color: black; font-family: Times New Roman; text-decoration: underline}
+		p { color: black; font-family: Times New Roman}
+	</style>
+	<body>
+		<h1>Olivia Ng</h1>
+		<h1>osyng@edu.uwaterloo.ca</h1>
+
+		<h2>PROFILE</h2>
+		<p>I am a 1A student enrolled in Biomedical Engineering at University of Waterloo. 
+		
+		<p>What is Biomedical Engineering?</p>
+		<p><a href="https://uwaterloo.ca/biomedical-engineering/">Click here for more info!</a></p>
+		<img src="https://i.cbc.ca/1.3285415.1471381382!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_620/university-of-waterloo.jpg" class="img-responsive" width="100" height="50">
+		
+		<h3> Relevant Courses</h3>
+		<table>
+		<table border= "1">
+		<tr>
+			<td>Digital Computation (BME 121)</td>
+			<td>Intro to Biomedical Design (BME 161)</td>
+			<td>Computer-Aided Design (BME 101L)</td>
+		</tr>
+		</table>
+
+		<h2>RELEVANT SKILLS</h2>
+		<p>o	Experience programming in C#</p>
+		<p>o	Ability to use SolidWorks</p>
+		<p>o	Fluent in English and French (written and oral)</p>
+		<p>o	Deep appreciation for challenging assignments that allow me to expand my professional knowledge</p>
+
+		<h2>EXPERIENCE</h2>
+		<h3>Holland Bloorview Kid's Rehabilitation Hospital (2015-2017)</h3>
+		<p>o	Facilitated a weekly program at Canada’s largest children’s rehabilitation hospital in which I worked primarily with non-verbal children with disabilities.</p>
+		<p>o	Promoted musical expression through singing, drumming and dancing.</p>
+
+		<h3>Piano Accompanist (2013-2016)</h3>
+		<p>o	Shaped the performances of young cellists of Cindy Song’s Cello Studio by serving as an accompanist on the piano at biannual recitals</p>
+
+		<h3>Piano Accompanist (2013-2016)</h3>
+		<p>o	Worked as an assistant at an eye care clinic.</p>
+
+		<h2>INTERESTS</h2>
+		<p>I enjoy playing piano, cello and rockclimbing.</p>
+
+		<h3>CONTACT</h3>
+		<form action="mailto:osyng@edu.uwaterloo.ca" method="post" enctype = "text/plain">
+		<p>Name:</p>
+  		<p><input type="text" name="name"/></p>
+  		<p>Email:</p>
+  		<p><input type="text" name="email"/></p>
+  		<p>Message:</p>
+  		<p><input type="text" name="message"/></p>
+  		<p><input type="submit" value="Submit"/></p>
+
+
+		</form>
